@@ -36,7 +36,7 @@ public:
         }
         else
         { 
-            //Jika REAR berada di posisi terakhir array, kembali ke level array
+            //jika REAR berada di posisi terakhir array, kembali ke level array
             if (REAR == max - 1)
                 REAR = 0;
             else
@@ -45,5 +45,6 @@ public:
         queue_array[REAR] = num;
     }
 
+    void remove()
     
 };
